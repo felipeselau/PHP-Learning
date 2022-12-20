@@ -1,0 +1,15 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    background-color: lightcoral;
+}
+#content-link{
+    font-size: 1em;
+    color: darkblue;
+    padding:0;
+    text-decoration: underline;
+}
