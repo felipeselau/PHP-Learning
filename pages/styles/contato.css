@@ -4,12 +4,33 @@
     align-items: center;
     justify-content: center;
     width: 60%;
-    height: 60%;
+    height: 80%;
     background-color: lightcoral;
 }
+
+form{
+    margin-left: 24px;
+}
+
 #content-link{
     font-size: 1em;
     color: darkblue;
     padding:0;
     text-decoration: underline;
+}
+
+.bttn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -24px;
+}
+
+button{
+    padding: 18px 80px 18px 80px;
+    margin-top: 32px;
+    border: 2px solid;
+    border-radius: 18px;
+    margin-left: 0;
 }
